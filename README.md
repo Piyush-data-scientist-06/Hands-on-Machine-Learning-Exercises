@@ -20,3 +20,6 @@ b) Next, try to combine them into an ensemble that outperforms them all on the v
 **4. Run the individual classifiers from the previous exercise to make predictions on the validation set:** <br>
 a) Create a new training set with the resulting predictions: each training instance is a vector containing the set of predictions from all your classifiers for an image, and the target is the image’s class. Congratulations, you have just trained a blender, and together with the classifiers they form a stacking ensemble! <br>
 b) Now let’s evaluate the ensemble on the test set. For each image in the test set, make predictions with all your classifiers, then feed the predictions to the blender to get the ensemble’s predictions. How does it compare to the voting classifier you trained earlier?
+
+**Observations: Plotted a graph to compare the accuracies of the classifiers:**
+![image](https://github.com/Piyush061990/Hands-on-Machine-Learning-Exercises/assets/134443316/7ef73baa-bd8a-4798-a75a-bb1174fbd091)
